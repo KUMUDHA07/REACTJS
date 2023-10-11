@@ -1,7 +1,7 @@
 // class component 
 
 import React from 'react'
-import CounterDisplay from '../reactapp/reactdemo/src/counterdisplay'
+import CounterDisplay from './counterdisplay'
 
 class Counter extends React.Component
 {

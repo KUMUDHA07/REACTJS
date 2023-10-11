@@ -87,7 +87,7 @@ getDoItems=()=>{
 }
 
 getDoneItems=()=>{
-        return this.state.todoarr.filter((todo)=>todo.completed!=false)
+        return this.state.todoarr.filter((todo)=>todo.completed!== false)
 }
 donetodo=(todoid)=>{
   const temptodos=[...this.state.todoarr];// to copy the array
